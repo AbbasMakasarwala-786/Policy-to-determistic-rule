@@ -1,0 +1,15 @@
+{
+  "invoice_amount": 1200000,
+  "invoice_po_deviation_pct": 12,
+  "invoice_po_deviation_pct_abs": 12,
+  "invoice_qty_gt_po_qty": false,
+  "unit_rate_deviation_pct_abs": 1.5,
+  "invoice_qty_gt_grn_qty": false,
+  "grn_date_after_invoice_date": false,
+  "gstin_matches_vendor_master": true,
+  "pan_gstin_matches": true,
+  "vendor_watchlist": false,
+  "deviation_detected": true,
+  "compliance_failure": false,
+  "always_true": true
+}

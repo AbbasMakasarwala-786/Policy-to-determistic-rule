@@ -1,0 +1,9 @@
+{
+  "claim_amount": 6200,
+  "invoice_amount": 6200,
+  "always_true": true,
+  "deviation_detected": true,
+  "compliance_failure": false,
+  "vendor_watchlist": false,
+  "manual_review_required": false
+}
