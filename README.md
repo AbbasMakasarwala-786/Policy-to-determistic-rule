@@ -50,6 +50,12 @@ The system follows a modular pipeline:
 - Emits deviation notifications
 - Uses SMTP if configured, otherwise logs notification events
 
+### AI Agents Used during this Assigment 
+To build and ship a good system fast. I made use of following AI Agents.
+- For building fast building the backend scafolding i use codex with GPT-5.3.
+- For testing and major bug fixing i used Claude sonnet 4.6 in rovodev
+- For Building minimalistic, clean and user-friendly UI, I used [UI/UX pro max skill's](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) along with codex 
+
 ### Runtime Flow
 - Frontend uploads document -> backend parses and stores it in memory (`document_id`)
 - Frontend runs pipeline -> backend returns rules, conflicts, execution results, notifications (`run_id`)
@@ -110,3 +116,4 @@ Default behavior is deterministic-first with selective LLM assist.
 ## Notes
 - If SMTP is not configured, notification events are logged (not sent).
 - Sample payloads are in `backend/sample_payloads/`.
+
